@@ -3736,11 +3736,11 @@ body.welcome-page{
     overflow:auto
 }
 .welcome{
-    /* background-image:linear-gradient(-90deg,#1251AE 0,#0074FF 50%,#1251AE 100%); */
     /* background: url("https://xero.groundsource.co.nz/new/img/10.jpg"); */
     background: url("https://img.freepik.com/free-photo/pedestal-display-platform-design-blank-product-stand-with-light-glow-3d-rendering_152359-314.jpg?size=626&ext=jpg") no-repeat;
+    background: url("../images/v-1.jpg") 100%100% no-repeat;
     
-    background-size: 100%100%;
+    /* background-size: 100%100%; */
     background-color: white;
     display:flex;
     flex-direction:column;
@@ -3822,11 +3822,11 @@ body.welcome-page{
     width:100%;
     font-size:14px;
     background-color: transparent;
-    color : white;
+    color : #2d1212;
 }
 .welcome .header #enter_room .enter-room-input-container ::placeholder{
     color:#253858;
-    color : white;
+    color : #2d1212;
 }
 .welcome .header .tab-container{
     font-size:16px;
@@ -3841,7 +3841,7 @@ body.welcome-page{
 }
 .welcome .header .tab-container .tab-content{
     display:inherit;
-    margin:5px 0;
+    margin:5px 0px 0px 5px;
     overflow:hidden;
     flex-grow:1;
     position:relative
@@ -3874,7 +3874,7 @@ body.welcome-page{
     margin-left:1px
 }
 .welcome .welcome-page-button{
-    width:51px;
+    width:151px;
     min-width:inherit;
     height:35px;
     font-size:14px;
