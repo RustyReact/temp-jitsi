@@ -2,7 +2,7 @@
  * jQuery contextMenu - Plugin for simple contextMenu handling
  *
  * Version: v2.1.1
- *
+ *a
  * Authors: Björn Brala (SWIS.nl), Rodney Rehm, Addy Osmani (patches for FF)
  * Web: http://swisnl.github.io/jQuery-contextMenu/
  *
@@ -3832,6 +3832,8 @@ body.welcome-page{
     color : black;
 }
 .welcome .header #enter_room .enter-room-input-container .enter-room-input{
+    padding-left : 20px;
+    padding-right: 20px;
     border:none;
     display:inline-block;
     width:100%;
@@ -5512,7 +5514,7 @@ input[type=range]::-ms-thumb{
 }
 .meetings-list .item .right-column .date{
     font-weight:700;
-    font : 14px arial,sans-serif !important;
+    font : 16px arial,sans-serif !important;
     padding-bottom:5px;
     padding-right : 10px;
 }
@@ -5525,9 +5527,10 @@ input[type=range]::-ms-thumb{
 }
 .meetings-list .item .right-column .title{
     font-size:16px;
-    font : 14px arial,sans-serif !important;
+    font : 16px arial,sans-serif !important;
     font-weight:700;
     padding-bottom:5px;
+    padding-right : 10px;
 }
 .meetings-list .item .actions{
     display:flex;
@@ -5537,7 +5540,8 @@ input[type=range]::-ms-thumb{
     padding-right:30px
 }
 .meetings-list .item.with-click-handler{
-    cursor:pointer
+    cursor:pointer;
+    text-align: center
 }
 .meetings-list .item.with-click-handler:hover{
     /* background-color:#75A7E7; */
@@ -6463,4 +6467,23 @@ input[type=range]::-ms-thumb{
     margin-top : 20px;
     text-align : center;
     width : 251px;
+}
+.footer{
+    bottom: 0;
+    font-size: 10pt;
+    height: 35px;
+    position: fixed;
+    z-index: 104;
+    width: 100%;
+    padding-bottom: 5px;
+
+    background: #f2f2f2;
+    line-height: 40px;
+    min-width: 980px;
+    border-top: 1px solid #e4e4e4;
+}
+.footer a{
+    color : #5f6368 !important;
+    padding-left: 27px;
+    margin: 0 !important;
 }
