@@ -5486,7 +5486,7 @@ input[type=range]::-ms-thumb{
     box-sizing:border-box;
     margin-top:5px;
     min-height:16px;
-    
+
     width:100%;
     word-break:break-word;
     display:flex;
@@ -5516,7 +5516,6 @@ input[type=range]::-ms-thumb{
     font : 16px arial,sans-serif !important;
     padding-bottom:5px;
     padding-right : 10px;
-    padding-left :10px;
 }
 .meetings-list .item .right-column{
     display:inline-block;
