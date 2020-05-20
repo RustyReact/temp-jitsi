@@ -1521,7 +1521,8 @@ button.no-icon{
     left:32px;
     top:32px;
     background-image:url("https://image.flaticon.com/icons/png/512/83/83335.png");
-    background-position:center left
+    background-position:center left;
+    display : none;
 }
 .rightwatermark{
     right:32px;
@@ -3809,7 +3810,7 @@ body.welcome-page{
     max-width:calc(100% - 40px);
     width:680px;
     z-index:2;
-    background-color:rgba(0,0,0,.2);
+    /* background-color:rgba(0,0,0,.2); */
     padding:25px 30px;
     border-radius:20px
 }
@@ -6308,8 +6309,11 @@ input[type=range]::-ms-thumb{
     position:absolute;
     left:-9999px
 }
+.header-image{
+    background: url("../images/247-logo.png");
+}
 
-@media(min-width :960px){
+/* @media(min-width :960px){
     .row{
         width : 80%;
         align-items: center;
@@ -6317,7 +6321,6 @@ input[type=range]::-ms-thumb{
         display: inline-flex;
         justify-content: space-evenly;
         min-height: 100%;
-        /* width: 100vw; */
     }
 
     .row .col-md-6:first-child{
@@ -6333,8 +6336,8 @@ input[type=range]::-ms-thumb{
         padding: 20px;
         width : 100%;
     }
-}
-@media(min-width :460px) and (max-width : 960px){
+} */
+/* @media(min-width :460px) and (max-width : 960px){
     .row{
         width : 70%;
         align-items: center;
@@ -6411,4 +6414,20 @@ input[type=range]::-ms-thumb{
     text-align :left ;
     font-family : 'Google Sans Display',Roboto,Arial,sans-serif;
     color : #5f6368 !important;
+} */
+.web-logo{
+    max-width : 100%;
+    height : 150px;
+}
+.header-text-title{
+    display : none;
+}
+.header-text-description{
+    display : none !important;
+}
+.enter-room-title{
+    display : none !important;
+}
+.enter-room-input{
+    font : 16px arial,sans-serif !important;
 }
