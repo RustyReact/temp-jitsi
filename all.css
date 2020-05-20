@@ -6495,3 +6495,6 @@ input[type=range]::-ms-thumb{
 .info-dialog-conference-url .spacer{
     display : none !important;
 }
+.info-dialog-password .spacer{
+    display : none !important;
+}
