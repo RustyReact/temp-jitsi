@@ -6489,3 +6489,6 @@ input[type=range]::-ms-thumb{
     padding-right: 27px;
     margin: 0 !important;
 }
+.footer .footer-right{
+    float : right;
+}
