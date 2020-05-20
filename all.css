@@ -5484,7 +5484,6 @@ input[type=range]::-ms-thumb{
 .meetings-list .item{
     background:rgba(255,255,255,.5);
     box-sizing:border-box;
-    margin-top:5px;
     min-height:16px;
 
     width:100%;
