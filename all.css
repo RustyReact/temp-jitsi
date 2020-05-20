@@ -6483,11 +6483,8 @@ input[type=range]::-ms-thumb{
     border-top: 1px solid #e4e4e4;
 }
 .footer span{
-    color : #5f6368 !important;
+    color : #243857 !important;
     padding-left: 27px;
+    padding-right: 27px;
     margin: 0 !important;
-}
-.footer-right{
-    float: right;
-    padding-right : 20px;
 }
