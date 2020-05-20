@@ -5485,7 +5485,8 @@ input[type=range]::-ms-thumb{
     background:rgba(255,255,255,.5);
     box-sizing:border-box;
     margin-top:5px;
-    min-height:92px;
+    min-height:16px;
+    
     width:100%;
     word-break:break-word;
     display:flex;
@@ -5529,7 +5530,7 @@ input[type=range]::-ms-thumb{
     font : 16px arial,sans-serif !important;
     font-weight:700;
     padding-bottom:5px;
-    padding-right : 10px;
+    padding-right : 10px
 }
 .meetings-list .item .actions{
     display:flex;
