@@ -6442,3 +6442,7 @@ input[type=range]::-ms-thumb{
     border-color : #e9e9e9 !important;
     padding : 10px !important;
 }
+.welcome .welcome-page-button{
+    background-color : #d2d2d2 !important;
+    color : #0c0707 !important;
+}
