@@ -5529,7 +5529,6 @@ input[type=range]::-ms-thumb{
     font : 14px arial,sans-serif !important;
     font-weight:700;
     padding-bottom:5px;
-    padding-right : 10px
 }
 .meetings-list .item .actions{
     display:flex;
