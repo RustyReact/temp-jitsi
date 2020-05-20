@@ -6492,3 +6492,6 @@ input[type=range]::-ms-thumb{
 .footer .footer-right{
     float : right;
 }
+.info-dialog-conference-url .spacer{
+    display : none !important;
+}
