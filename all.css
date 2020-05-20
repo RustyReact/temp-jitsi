@@ -6451,3 +6451,6 @@ input[type=range]::-ms-thumb{
     margin-top : 20px;
     text-align : center;
 }
+.welcome .header #enter_room{
+    display : block !important;
+}
