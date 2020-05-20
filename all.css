@@ -6450,6 +6450,7 @@ input[type=range]::-ms-thumb{
     display : inline-block;
     margin-top : 20px;
     text-align : center;
+    width : 251px;
 }
 .welcome .header #enter_room{
     display : block !important;
