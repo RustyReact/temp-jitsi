@@ -6508,7 +6508,7 @@ input[type=range]::-ms-thumb{
 }
 .right-dev{
     display: block;
-    float : center;
+    float : left;
 }
 @media(min-width : 1024px){
     .left-div{
