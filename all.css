@@ -6498,6 +6498,18 @@ input[type=range]::-ms-thumb{
 .info-dialog-password .spacer{
     display : none !important;
 }
+
+.footer{
+    display: inline-table;
+}
+.left-div{
+    display : block;
+    float: center;
+}
+.right-dev{
+    display: block;
+    float : center;
+}
 @media(min-width : 1024px){
     .left-div{
         display : inline-block;
