@@ -6504,7 +6504,7 @@ input[type=range]::-ms-thumb{
 }
 .left-div{
     display : inline;
-    float: center;
+    float: left;
 }
 .right-dev{
     display: inline;
