@@ -6537,6 +6537,7 @@ input[type=range]::-ms-thumb{
         display: block;
     }
     .r-span{
+        padding-left: 27px !important;
         display: block;
     }
 }
