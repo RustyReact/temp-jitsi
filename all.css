@@ -6528,7 +6528,7 @@ input[type=range]::-ms-thumb{
 }
 @media(max-width : 768px){
     .left-div{
-        display : inline-block;
+        display : contents;
     }
     .right-dev{
         display: inline-block;
