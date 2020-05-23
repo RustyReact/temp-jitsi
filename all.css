@@ -6510,7 +6510,7 @@ input[type=range]::-ms-thumb{
     display: block;
     float : left;
 }
-@media(min-width : 1024px){
+@media(max-width : 1024px){
     .left-div{
         display : inline-block;
     }
