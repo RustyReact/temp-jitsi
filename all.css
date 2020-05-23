@@ -6498,7 +6498,7 @@ input[type=range]::-ms-thumb{
 .info-dialog-password .spacer{
     display : none !important;
 }
-@media(max-width : 1024px){
+@media(min-width : 1024px){
     .left-div{
         display : inline-block;
     }
