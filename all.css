@@ -6511,10 +6511,10 @@ input[type=range]::-ms-thumb{
     float : left;
 }
 .l-span{
-    padding-right: 0px;
+    padding-right: 0px !important;
 }
 .r-span{
-    padding-left: 0px;
+    padding-left: 0px !important;
 }
 @media(max-width : 1024px){
     .left-div{
