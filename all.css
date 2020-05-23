@@ -6510,6 +6510,12 @@ input[type=range]::-ms-thumb{
     display: block;
     float : left;
 }
+.l-span{
+    padding-right: 0px;
+}
+.r-span{
+    padding-left: 0px;
+}
 @media(max-width : 1024px){
     .left-div{
         display : inline-block;
