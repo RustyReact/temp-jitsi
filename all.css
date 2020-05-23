@@ -2,7 +2,7 @@
  * jQuery contextMenu - Plugin for simple contextMenu handling
  *
  * Version: v2.1.1
- *a
+ *
  * Authors: Björn Brala (SWIS.nl), Rodney Rehm, Addy Osmani (patches for FF)
  * Web: http://swisnl.github.io/jQuery-contextMenu/
  *
@@ -3832,8 +3832,6 @@ body.welcome-page{
     color : black;
 }
 .welcome .header #enter_room .enter-room-input-container .enter-room-input{
-    padding-left : 20px;
-    padding-right: 20px;
     border:none;
     display:inline-block;
     width:100%;
@@ -5468,7 +5466,6 @@ input[type=range]::-ms-thumb{
 }
 .meetings-list .meetings-list-empty .description{
     font-size:16px;
-    display : none;
     padding:20px
 }
 .meetings-list .button{
@@ -5487,8 +5484,8 @@ input[type=range]::-ms-thumb{
 .meetings-list .item{
     background:rgba(255,255,255,.5);
     box-sizing:border-box;
-    min-height:16px;
-
+    margin-top:5px;
+    min-height:92px;
     width:100%;
     word-break:break-word;
     display:flex;
@@ -5518,6 +5515,7 @@ input[type=range]::-ms-thumb{
     font : 16px arial,sans-serif !important;
     padding-bottom:5px;
     padding-right : 10px;
+    padding-left :10px;
 }
 .meetings-list .item .right-column{
     display:inline-block;
@@ -5531,7 +5529,7 @@ input[type=range]::-ms-thumb{
     font : 16px arial,sans-serif !important;
     font-weight:700;
     padding-bottom:5px;
-    padding-right : 10px;
+    padding-right : 10px
 }
 .meetings-list .item .actions{
     display:flex;
@@ -5541,8 +5539,7 @@ input[type=range]::-ms-thumb{
     padding-right:30px
 }
 .meetings-list .item.with-click-handler{
-    cursor:pointer;
-    text-align: center
+    cursor:pointer
 }
 .meetings-list .item.with-click-handler:hover{
     /* background-color:#75A7E7; */
@@ -6452,7 +6449,7 @@ input[type=range]::-ms-thumb{
 .welcome .header #enter_room .enter-room-input-container{
     border-radius : 20px !important;
     border-color : #e9e9e9 !important;
-    padding : 10px !important;
+    padding : 10px 0px !important;
     border-width : 2px !important;
     border-image: none;
 }
@@ -6468,33 +6465,4 @@ input[type=range]::-ms-thumb{
     margin-top : 20px;
     text-align : center;
     width : 251px;
-}
-.footer{
-    bottom: 0;
-    font-size: 10pt;
-    height: 35px;
-    position: fixed;
-    z-index: 104;
-    width: 100%;
-    padding-bottom: 5px;
-
-    background: #f2f2f2;
-    line-height: 40px;
-    min-width: 980px;
-    border-top: 1px solid #e4e4e4;
-}
-.footer span{
-    color : #243857 !important;
-    padding-left: 27px;
-    padding-right: 27px;
-    margin: 0 !important;
-}
-.footer .footer-right{
-    float : right;
-}
-.info-dialog-conference-url .spacer{
-    display : none !important;
-}
-.info-dialog-password .spacer{
-    display : none !important;
 }
