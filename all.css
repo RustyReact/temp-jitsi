@@ -6503,11 +6503,11 @@ input[type=range]::-ms-thumb{
     display: inline-table;
 }
 .left-div{
-    display : block;
+    display : inline;
     float: center;
 }
 .right-dev{
-    display: block;
+    display: inline;
     float : left;
 }
 .l-span{
