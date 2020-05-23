@@ -6525,3 +6525,18 @@ input[type=range]::-ms-thumb{
         float : right;
     }
 }
+@media(max-width : 768px){
+    .left-div{
+        display : inline-block;
+    }
+    .right-dev{
+        display: inline-block;
+        float : right;
+    }
+    .l-span{
+        display: block;
+    }
+    .r-span{
+        display: block;
+    }
+}
