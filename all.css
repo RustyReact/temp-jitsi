@@ -6524,6 +6524,7 @@ input[type=range]::-ms-thumb{
         display: inline-block;
         float : right;
     }
+
 }
 @media(max-width : 768px){
     .left-div{
@@ -6539,5 +6540,8 @@ input[type=range]::-ms-thumb{
     .r-span{
         padding-left: 27px !important;
         display: block;
+    }
+    .footer .footer-right{
+        float : left;
     }
 }
