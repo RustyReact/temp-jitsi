@@ -6528,6 +6528,9 @@ input[type=range]::-ms-thumb{
 
 }
 @media(max-width : 768px){
+    .footer{
+        display: none;
+    }
     .left-div{
         display : contents;
     }
