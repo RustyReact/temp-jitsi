@@ -5317,7 +5317,7 @@ input[type=range]::-ms-thumb{
     padding:10px 10px 0
 }
 .deep-linking-mobile .deep-linking-dial-in,.deep-linking-mobile__text{
-    font-size:1.4em;
+    font-size:1.6em;
     font-family: Cerebrisans, sans-serif !important;
     line-height:1.38095em;
     margin-bottom:.65em;
