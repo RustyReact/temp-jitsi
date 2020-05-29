@@ -5282,7 +5282,7 @@ input[type=range]::-ms-thumb{
 .deep-linking-mobile .header{
     width:100%;
     height:70px;
-    background-color:#f1f2f5;
+    background-color:transparent;
     text-align:center
 }
 .deep-linking-mobile .header .logo{
