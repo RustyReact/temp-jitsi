@@ -5393,7 +5393,7 @@ input[type=range]::-ms-thumb{
 .deep-linking-mobile__button_primary{
     background-color:transparent;
     color:#FFF;
-    padding : 10px !important;
+    /* padding : 10px !important; */
     border : 2px solid white;
     border-radius:inherit;
     font-size : 16px;
