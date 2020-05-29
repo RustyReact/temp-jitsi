@@ -5359,7 +5359,7 @@ input[type=range]::-ms-thumb{
     line-height:inherit
 }
 .deep-linking-mobile__button,.deep-linking-mobile__href{
-    line-height:2.28571em;
+    /* line-height:2.28571em; */
     max-width:300px;
     font-size:inherit;
     width:auto
@@ -5381,7 +5381,7 @@ input[type=range]::-ms-thumb{
 }
 .deep-linking-mobile__button{
     border:0;
-    height:2.28571em;
+    /* height:2.28571em; */
     margin:18px auto 10px;
     padding:0 10px;
     -webkit-border-radius:3px;
@@ -5393,7 +5393,6 @@ input[type=range]::-ms-thumb{
 .deep-linking-mobile__button_primary{
     background-color:transparent;
     color:#FFF;
-    height : "" !important;
     border : 2px solid white;
     border-radius:inherit;
     font-size : 16px;
