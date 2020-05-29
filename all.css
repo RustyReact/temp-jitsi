@@ -5273,7 +5273,7 @@ input[type=range]::-ms-thumb{
     margin-top:16px
 }
 .deep-linking-mobile{
-    background-color:#fff;
+    background-color:#883fff;
     height:100vh;
     overflow:auto;
     position:relative;
@@ -5316,7 +5316,8 @@ input[type=range]::-ms-thumb{
 .deep-linking-mobile .deep-linking-dial-in,.deep-linking-mobile__text{
     font-size:1em;
     line-height:1.38095em;
-    margin-bottom:.65em
+    margin-bottom:.65em;
+    color : white;
 }
 .deep-linking-mobile .deep-linking-dial-in_small,.deep-linking-mobile__text_small{
     font-size:1.5em;
@@ -5386,8 +5387,9 @@ input[type=range]::-ms-thumb{
     font-weight:700
 }
 .deep-linking-mobile__button_primary{
-    background-color:#0052CC;
+    background-color:transparent;
     color:#FFF;
+    border : 2px solid white;
     border-radius:inherit
 }
 .deep-linking-mobile__button_primary:active{
