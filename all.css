@@ -5296,7 +5296,9 @@ input[type=range]::-ms-thumb{
 }
 .deep-linking-mobile a{
     text-decoration:none;
-    color:inherit
+    color:inherit;
+    color: white !important;
+    font-size : 16px;
 }
 .deep-linking-mobile__body{
     color:#4a4a4a;
