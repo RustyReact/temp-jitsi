@@ -5381,7 +5381,7 @@ input[type=range]::-ms-thumb{
     margin:18px auto 20px;
     border : 2px solid white;
     border-radius: 5px;
-    padding: 5px;
+    padding: 8px;
     font-weight:bolder
 }
 .deep-linking-mobile__button{
@@ -5398,6 +5398,7 @@ input[type=range]::-ms-thumb{
 .deep-linking-mobile__button_primary{
     background-color:transparent;
     color:#FFF;
+    height: 38px;
     /* padding : 10px !important; */
     border : 2px solid white;
     border-radius:inherit;
