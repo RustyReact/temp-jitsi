@@ -5381,6 +5381,7 @@ input[type=range]::-ms-thumb{
     margin:18px auto 20px;
     border : 2px solid white;
     border-radius: 5px;
+    padding: 5px;
     font-weight:bolder
 }
 .deep-linking-mobile__button{
